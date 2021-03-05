@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 date_flag = True
 
-site = requests.get("https://api.github.com/repos/take-2405/doing_swift/commits")
+site = requests.get("https://api.github.com/repos/take-2405/Git-commit-analysis-tool/commits")
 siteInfo = site.text
 
 path = './result/user.txt'
