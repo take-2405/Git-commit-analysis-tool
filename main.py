@@ -1,14 +1,16 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-
+# 日付が2つ重複しているので1つを表示しないためのフラグ
 date_flag = True
 
-site = requests.get("https://api.github.com/repos/take-2405/aaaa/commits")
+# プライベートリポジトリを調べるためにtokenを読み込む
+parameter = {'access_token':os.environ['Git_Path']}
+# 目的のリポジトリのログを取得
+site = requests.get("https://api.github.com/repos/take-2405/Git-commit-analysis-tool/commits",params=parameter)
 siteInfo = site.text
 
-print(siteInfo)
-
+# 目的の情報を書き出すためのテキスト作成
 path = './result/user.txt'
 f = open(path, 'w')
 
