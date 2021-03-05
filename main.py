@@ -4,8 +4,10 @@ from bs4 import BeautifulSoup
 
 date_flag = True
 
-site = requests.get("https://api.github.com/repos/take-2405/Git-commit-analysis-tool/commits")
+site = requests.get("https://api.github.com/repos/take-2405/aaaa/commits")
 siteInfo = site.text
+
+print(siteInfo)
 
 path = './result/user.txt'
 f = open(path, 'w')
