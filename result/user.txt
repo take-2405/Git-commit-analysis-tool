@@ -1,1 +1,14 @@
-Not Fo
+2021-03-05T03:57:51
+Merge pull request #1 from take-2405/feature/screiping\n\nFeature/screiping
+2021-03-05T03:53:42
+[fix]Analysis target
+2021-03-05T03:41:50
+[Fix]Log analysis changes
+2021-03-05T03:29:27
+[ADD]Export function to file
+2021-03-05T03:11:01
+[ADD]ignore
+2021-03-05T03:08:41
+[ADD]Commit analysis function
+2021-03-05T01:44:22
+Initial commit
