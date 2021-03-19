@@ -1,36 +1,12 @@
-2021-03-19T16:57:58
-Merge pull request #4 from take-2405/feat/3/createAPI\n\n[Fix]time calcurate error
-2021-03-19T16:56:30
-[Fix]time calcurate error
-2021-03-19T16:52:38
-Merge pull request #2 from take-2405/feature/analyze-time\n\nFeature/analyze time
-2021-03-19T16:52:23
-[Fix]xml
-2021-03-19T16:45:32
-[ADD]コミット間の時間計測を関数化
-2021-03-19T16:19:29
-[ADD]コミット間の時間を計測　a
-2021-03-19T15:47:43
-[ADD]コミットメッセージ全てを取得
-2021-03-19T15:42:45
-[ADD]コミットメッセージ全てを取得
-2021-03-05T05:45:45
-[ADD]Extraction of time only
-2021-03-05T05:13:43
-[fix]Supports private repositories
-2021-03-05T04:31:56
-[Fix]READMR.md
-2021-03-05T03:57:51
-Merge pull request #1 from take-2405/feature/screiping\n\nFeature/screiping
-2021-03-05T03:53:42
-[fix]Analysis target
-2021-03-05T03:41:50
-[Fix]Log analysis changes
-2021-03-05T03:29:27
-[ADD]Export function to file
-2021-03-05T03:11:01
-[ADD]ignore
-2021-03-05T03:08:41
-[ADD]Commit analysis function
-2021-03-05T01:44:22
-Initial commit
+2020-07-31T14:02:20
+[complete]
+2020-07-31T04:31:02
+[add]ハイパスフィルタ
+2020-07-29T17:16:46
+[add]離散フーリエの処理後の画像を出力できるようにした
+2020-07-29T17:03:01
+[add]離散フーリエ変換
+2020-07-29T15:16:49
+[add]コード減量
+2020-07-29T10:37:27
+[add]記事を参考に離散フーリエ変換

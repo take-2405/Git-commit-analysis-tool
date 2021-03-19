@@ -1,16 +1,17 @@
 import os
 import requests
 
-def GetRipositoryLog():
+def GetRipositoryLog(userName,repositoryName):
     # 日付が2つ重複しているので1つを表示しないためのフラグ
     date_flag = True
     # コミットメッセージの終わりを識別するためのフラグ
     message_flag = False
 
     # プライベートリポジトリを調べるためにtokenを読み込む
-    parameter = {'access_token': os.environ['Git_Path']}
+    # parameter = {'access_token': os.environ['Git_Path']}
     # 目的のリポジトリのログを取得
-    site = requests.get("https://api.github.com/repos/take-2405/Git-commit-analysis-tool/commits", params=parameter)
+    # site = requests.get("https://api.github.com/repos/take-2405/Git-commit-analysis-tool/commits", params=parameter)
+    site = requests.get("https://api.github.com/repos/"+userName+"/"+repositoryName+"/commits")
     siteInfo = site.text
 
     # 目的の情報を書き出すためのテキスト作成
