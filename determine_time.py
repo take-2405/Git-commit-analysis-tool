@@ -3,7 +3,6 @@ import datetime
 
 def Timebetweencommits():
     compare_flag = False
-    compare_datetime = datetime.datetime(year=1, month=1, day=1, hour=1)
     path = './result/user.txt'
     f = open(path, 'r')
     data = f.read()
@@ -27,7 +26,7 @@ def Timebetweencommits():
                 i = j
                 if compare_flag:
                     f.write(str(compare_date_time - commit_date_time)+"\n")
-                    compare_datetime = commit_date_time
+                    compare_date_time = commit_date_time
                 else:
                     compare_date_time = commit_date_time
                     compare_flag = True
