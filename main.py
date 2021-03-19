@@ -36,6 +36,6 @@ for i in range(0, len(siteInfo)):
                     f.write(siteInfo[message_start:message_end-2] + "\n")
                     message_flag = False
                     break;
-                else :
+                else:
                     message_flag = True
 f.close()
