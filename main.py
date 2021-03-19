@@ -1,5 +1,6 @@
 import os
 import requests
+import determine_time
 from bs4 import BeautifulSoup
 
 # 日付が2つ重複しているので1つを表示しないためのフラグ
@@ -39,3 +40,4 @@ for i in range(0, len(siteInfo)):
                 else:
                     message_flag = True
 f.close()
+determine_time.Timebetweencommits()
