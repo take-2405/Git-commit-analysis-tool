@@ -1,12 +1,65 @@
-2020-07-31T14:02:20
-[complete]
-2020-07-31T04:31:02
-[add]ハイパスフィルタ
-2020-07-29T17:16:46
-[add]離散フーリエの処理後の画像を出力できるようにした
-2020-07-29T17:03:01
-[add]離散フーリエ変換
-2020-07-29T15:16:49
-[add]コード減量
-2020-07-29T10:37:27
-[add]記事を参考に離散フーリエ変換
+2019-12-15T02:02:40
+[change]title
+2019-12-15T01:28:14
+Merge pull request #23 from p2hacks/take-2405-patch-2\n\nUpdate README.md
+ADME.md","tree":{"s
+2019-12-15T01:27:23
+Update README.md
+ADME.md","tree":{"s
+2019-12-15T01:25:56
+Merge pull request #22 from p2hacks/wakamatsu\n\nBag修正
+2019-12-15T01:23:19
+Merge branch 'master' of https://github.com/p2hacks/teamR07
+2019-12-15T01:22:07
+Update README.md
+ADME.md","tree":{"s
+2019-12-15T01:21:07
+[add]README.md
+2019-12-14T21:27:30
+[fix]Home.css
+2019-12-14T20:28:11
+[fix]
+2019-12-14T19:25:23
+[add]Header.css
+2019-12-14T19:24:07
+[fix]package.json
+2019-12-14T19:08:03
+Merge pull request #21 from p2hacks/take-2405-patch-1\n\nUpdate README.md
+ADME.md","tree":{"s
+2019-12-14T19:06:55
+Update README.md
+ADME.md","tree":{"s
+2019-12-14T18:27:31
+Merge pull request #20 from p2hacks/switch_page\n\nページの設定\r\nあとは任せろ
+2019-12-14T18:25:00
+ページの設定
+2019-12-14T16:52:10
+Merge pull request #19 from p2hacks/kondo\n\n[hotfix]教会ページが表示されないバグを修正
+2019-12-14T11:10:38
+[hotfix]教会ページが表示されないバグを修正
+2019-12-14T11:04:01
+Merge pull request #18 from p2hacks/wakamatsu\n\n[fix]MapView.js[add]Images
+2019-12-14T10:53:42
+[fix]Realbase.jsを変更
+2019-12-14T09:47:47
+Merge branch 'master' of https://github.com/p2hacks/teamR07
+2019-12-14T09:46:28
+[add]教会の紹介ページを個別に作り、データベースから情報を持ってこれるようにした
+2019-12-14T09:37:31
+[fix]MapView.js[add]Images
+2019-12-14T09:13:51
+Merge pull request #17 from p2hacks/wakamatsu\n\nWakamatsu
+2019-12-14T09:08:46
+[add]oosaki merge
+2019-12-14T08:59:52
+Merge pull request #16 from p2hacks/card_link\n\nCard link
+2019-12-14T08:54:47
+カードのここへ行くを押すとGoogle マップで位置情報が出てくるようにした
+2019-12-14T08:46:47
+[fix]Home.jsx
+2019-12-14T08:40:14
+カードにリンクを貼った
+2019-12-14T08:34:26
+[fix]Home.jsx
+2019-12-14T08:09:31
+Merge branch 'master' of https://github.com/p2hacks/teamR07 into card_link

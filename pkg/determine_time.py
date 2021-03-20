@@ -13,7 +13,8 @@ def Timebetweencommits():
     f = open(path, 'w')
 
     for i in range(0, len(data)):
-        if data[i] == "2" and data[i + 1] == "0" and data[i + 2] == "2":
+        # if data[i] == "2" and data[i + 1] == "0" and data[i + 2] == "2":
+        if data[i] == "2" and data[i + 1] == "0"and (data[i + 2] == "1" or data[i + 2] == "2"):
             for j in range(i, len(data)):
                 year = int(data[j:j + 4])
                 month = int(data[j + 5:j + 7])
