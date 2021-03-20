@@ -1,11 +1,13 @@
-from pkg import determine_time
-from pkg import get_repository_log
-from pkg import getlog_untext
+from pkg import repository_analysis
 
-print("あなたのユーザ名は？")
-userName = input()
-print("対象リポジトリは？")
-repositoryName = input()
-getlog_untext.merge(userName, repositoryName)
-# get_repository_log.GetRipositoryLog(userName, repositoryName)
-# determine_time.Timebetweencommits()
+
+def main():
+    print("あなたのユーザ名は？")
+    user_name = input()
+    print("対象リポジトリは？")
+    repository_name = input()
+    repository_analysis.merge(user_name, repository_name)
+
+
+main()
+
