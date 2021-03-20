@@ -97,7 +97,6 @@ def merge(user_name, repository_name):
                 # i = i+6
                 for j in range(i, len(site_info)):
                     if site_info[j] == "2" and site_info[j + 1] == "0" and (site_info[j + 2] == "0" or site_info[j + 2] == "1" or site_info[j + 2] == "2"):
-                    # if site_info[j] == "2" and site_info[j + 1] == "0" and site_info[j + 2] == "2":
                         year = int(site_info[j:j + 4])
                         month = int(site_info[j + 5:j + 7])
                         day = int(site_info[j + 8:j + 10])
