@@ -56,3 +56,4 @@ def analysis_git_log(user_name, repository_name):
                         break;
                     else:
                         message_flag = True
+
