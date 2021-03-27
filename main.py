@@ -5,7 +5,7 @@ app = Flask('__name__')
 
 app.config['JSON_AS_ASCII'] = False
 
-@app.route("/get/log", methods=["GET"])
+@app.route("/", methods=["GET"])
 def get_log():
     git_name = request.args.get("gitName")
     if git_name == "":
@@ -19,5 +19,5 @@ def get_log():
 
 if __name__ == '__main__':
     # app.run(debug=False, host='0.0.0.0', port=8080)
-    app.run()
+    app.run(debug=False)
 
