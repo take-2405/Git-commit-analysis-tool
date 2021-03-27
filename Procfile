@@ -1,2 +1,2 @@
 web: python main.py
-web: gunicorn hello:app --log-file -
+web: gunicorn app:app --log-file -
