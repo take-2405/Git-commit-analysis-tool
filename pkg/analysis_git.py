@@ -3,7 +3,10 @@ import datetime
 
 
 def analysis_git_log(user_name, repository_name):
-    git_log = []
+    # git_log = []
+    git_message = []
+    git_time = []
+    git_diff =[]
     # 日付が2つ重複しているので1つを表示しないためのフラグ
     date_flag = True
     # コミットメッセージの終わりを識別するためのフラグ
@@ -23,7 +26,8 @@ def analysis_git_log(user_name, repository_name):
             for message_end in range(message_start, len(site.text)):
                 if site.text[message_end] == "\"":
                     if message_flag:
-                        git_log.append(site.text[message_start:message_end - 2])
+                        git_message.append(site.text[message_start:message_end - 2])
+                        # git_log.append(site.text[message_start:message_end - 2])
                         message_flag = False
                         break;
                     else:
@@ -45,18 +49,25 @@ def analysis_git_log(user_name, repository_name):
                                                              second=second)
                         i = j
                         if compare_flag:
-                            git_log.append(" 次コミットとの時間差："+str(compare_date_time - commit_date_time))
-                            git_log.append(str(commit_date_time))
+                            git_diff.append(" 次コミットとの時間差："+str(compare_date_time - commit_date_time))
+                            git_time.append(str(commit_date_time))
+                            # git_log.append(" 次コミットとの時間差："+str(compare_date_time - commit_date_time))
+                            # git_log.append(str(commit_date_time))
                             compare_date_time = commit_date_time
                             i = i + 27
                         else:
                             compare_date_time = commit_date_time
                             compare_flag = True
-                            git_log.append(str(commit_date_time))
+                            git_time.append(str(commit_date_time))
+                            # git_log.append(str(commit_date_time))
                             i = i + 27
                         break;
                 date_flag = False
             else:
                 i = i + 27
                 date_flag = True
-    return git_log
+
+    new_git_message = git_message[::-1]
+    new_git_time = git_time[::-1]
+    new_git_diff = git_diff[::-1]
+    return new_git_message, new_git_time, new_git_diff
