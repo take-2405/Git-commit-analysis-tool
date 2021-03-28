@@ -20,7 +20,7 @@ def get_log():
         return jsonify({'message': 'header repository name is null'}), 400
 
     # git_log = analysis_git.analysis_git_log(git_name, repository_name)
-    git_message,git_time,git_diff= analysis_git.analysis_git_log(git_name, repository_name)
+    git_message, git_time, git_diff = analysis_git.analysis_git_log(git_name, repository_name)
     return jsonify({"git_message": git_message, "git_time": git_time, "git_diff": git_diff}), 200
 
 
