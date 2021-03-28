@@ -1,8 +1,10 @@
 from pkg import analysis_git
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 
 app = Flask('__name__')
+CORS(app)
 
 app.config['JSON_AS_ASCII'] = False
 
